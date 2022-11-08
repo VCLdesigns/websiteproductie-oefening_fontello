@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--Set Language-->
+<html lang="en">
+
+<head>
+    <!--Define the character set used-->
+    <meta charset="UTF-8">
+    <!--https://www.thoughtco.com/xua-compatible-meta-tag-3469059-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Define keywords for search engines-->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!--Define a description of your web page-->
+    <meta name="description" content="Exercises for my education">
+    <!--Define the author of a page-->
+    <meta name="author" content="Bart Victor Loots">
+    <!--Setting the viewport to make your website look good on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link external stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--favicon: https://www.w3schools.com/html/html_favicon.asp-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+    <!--Define the title of your webpage-->
+    <title>Oefening typo: Fontello</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Oefening typo: Fontello</h1>
+        </header>
+        <main>
+            <form id="contactus">
+
+                <label for="voornaal">Voornaam <span class="icon icon-user"></span> </label>
+                <input type="text" id="voornaam" name="Voornaam" placeholder="Uw voornaam ...">
+            
+                <label for="achternaam"> Achternaam <span class="icon icon-users"></span></label>
+                <input type="text" id="achternaam" name="achternaam" placeholder="uw achternaam ...">
+                <label for="email">Email</label><input type="text" id="email" name="email" placeholder="uw Emailadres">
+
+                <label for="gemeente"> Woonplaats <span class="icon icon-location-alt"></span> </label>
+                <input type="text" id="gemeente" name="gemeente" placeholder="uw gemeente ...">
+            
+                <label for="contact_reden">Reden van contact <span class="icon icon-mail"></span> </label>
+                <select id="contact_reden" name="contact_reden">
+                    <option value="info">Meer informatie</option>
+                  <option value="nieuw_lid">Nieuw lid</option>
+                  <option value="gratis_les">Gratis les</option>
+                  <option value="andere">Andere</option>
+                </select>
+            
+                <label for="onderwerp">Onderwerp <span class="icon icon-pencil"></span> </label>
+                <textarea id="onderwerp" name="onderwerp" placeholder="Schrijf hier iets ..." style="height:200px"></textarea>
+            
+                <input type="submit" value="Versturen">
+            
+              </form>
+        </main>
+        <footer>
+            <h6>Bart Victor Loots &copy 2022</h6> <h6>Websiteproductie2 @ Encora</h6>
+        </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
